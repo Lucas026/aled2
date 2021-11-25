@@ -1,3 +1,14 @@
-#index:
-#    path: /
-#    controller: App\Controller\DefaultController::index
+clients_info:
+    path: /yaml/client/info/{nom}
+    controller: App\Controller\ClientControllerForYaml::info
+
+clients_photo:
+    path: /yaml/client/photo
+    controller: App\Controller\ClientControllerForYaml::photo
+
+clients_prenom:
+    path: /yaml/client/prenom/{nom}
+    controller: App\Controller\ClientControllerForYaml::prenom
+    requirements:
+      url: '[a-zA-Z]+-[a-zA-Z]+?'
+
