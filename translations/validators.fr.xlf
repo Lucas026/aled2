@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" datatype="plaintext" original="file.ext">
+        <body>
+            <trans-unit id="1">
+                <source>Email not valid</source>
+                <target>L'email n'est pas valide</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>You must have eight characters including a letter and a number</source>
+                <target>Vous devez avoir huit caractères dont une lettre et un chiffre</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>
